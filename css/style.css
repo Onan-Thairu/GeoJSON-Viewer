@@ -1,0 +1,40 @@
+html, body {
+    font-family: Georgia, Times, serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#map {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+#text {
+    height: 100%;
+    width: 40%;
+    float: right;
+}
+#geojsontext {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 80%;
+}
+#heading {
+    margin-left: 20px;
+    font-size: .9em;
+    font-weight: 520;
+    letter-spacing: .2em;
+}
+#submit {
+    width: 80px;
+    margin: 20px;
+    border: 1px solid #25242493;
+    border-radius: 6px;
+    padding: 5px;
+}
+#submit:hover {
+    background-color: gray;
+}
